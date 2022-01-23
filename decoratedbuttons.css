@@ -1,0 +1,42 @@
+.adding {
+    margin-top: 3vh;
+    transition-duration: 0.4s;
+    background-color: skyblue;
+    height: 4vh;
+    width: 8vw;
+  }
+  
+.adding:hover {
+    background-color: blue; /* Green */
+    color: white;
+  }
+
+
+#clear {
+    margin-top: 3vh;
+    transition-duration: 0.4s;
+    background-color: skyblue;
+    height: 4vh;
+    width: 8vw;
+  }
+  
+#clear:hover {
+    background-color: blue; /* Green */
+    color: white;
+  }
+
+
+.DeleteTask
+{   
+    height: 3vh;
+    width: 6vw;
+    color: white;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.DeleteTask:hover
+{
+    color : red ;
+    background-color: green ;
+}

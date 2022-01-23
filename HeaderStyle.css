@@ -1,0 +1,56 @@
+nav
+{
+    /* background-color: black; */
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    /* border: 2px solid red ; */
+    
+    height: 10vh;
+    display: flex;
+    
+}
+
+.navlist ul
+{
+    height: 10vh;
+    width: 40vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlist ul li
+{
+    list-style: none;
+
+}
+.pageheading
+{
+
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: azure;
+
+    padding: 1vh;
+    height: 10vh;
+    width: 100vw;
+    font-size: 3vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Cedarville Cursive', cursive;
+    
+
+}
+
+.pageheading h1{
+    color: rgb(202, 247, 1);
+}

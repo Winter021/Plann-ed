@@ -1,0 +1,39 @@
+.fulltable{
+    border-collapse: collapse;
+    margin: 3vh 2vw ;
+    font-size: 0.9em;
+    min-width: 79vw;
+    box-shadow: rgba(156, 38, 235, 0.603) 0px 0px 0px 3px;
+
+
+    border-radius:  5px 5px  0 0 ;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.15); */
+}
+
+.fulltable thead tr{
+    background-color: #009897;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    /* margin-left: 2vw; */
+}
+
+.fulltable th , 
+.fulltable td 
+{
+    padding : 1vh 2vw ;
+} 
+
+
+.fulltable tbody tr  {
+    border-bottom: 1px solid grey;
+    background-color:whitesmoke;
+}
+
+.fulltable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.fulltable tbody tr:last-of-type{
+    border-bottom:  3px solid#009897;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>To-do List</title>
+
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href = "tablestyle.css">
+    <link rel = "stylesheet" href = "decoratedbuttons.css">
+    <link rel = "stylesheet" href = "HeaderStyle.css">
+    <link rel = "stylesheet" href = "DecoratingInputsection.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navlist">
+            <ul>
+                <li>Home</li>
+                <li>Settings</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="navspace">
+            
+        </div>
+        </nav>
+        <div class="pageheading">
+            <h1>Task List</h1>
+        </div>
+    </header>
+    <main>
+        <div class="pagebody">
+                <div class="formbody">            
+                <div> <!--Removed form tag-->
+                    <div class="formgroup1">
+
+                    <label for = "title">
+                        <p class = "titletext">Task Title</p>
+                        <input type="text" id = "title" class = "tasktitle"><br>
+                        <small id = "titlesmall" class = "titlesmall">Add a task</small>
+                    </label>
+                </div>
+
+                <div class="formgroup2">
+                    <div class="descptitle">Task description</div>
+                    <label for="description"></label><br>
+                    <textarea class="descp" id = "description" cols="70" rows="5" ></textarea>
+                </div>
+
+                <button type="submit" class = "adding"id="add">Add to List</button>
+                <button type="submit" id="clear" onclick="clearStorage()">Clear List</button>
+                
+            </div>
+            </div>
+            
+            <div class="tasklistbody">
+                <div class="heading">
+                    <h2>Your Tasks</h2>
+                </div>
+                <table id = "table" class = "fulltable">
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Task Title</th>
+                            <th>Description</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id = "tablebody">
+                        <tr>
+                            <td>1</td>
+                            <td>Get Coffee</td>
+                            <td>At 4 PM go get some Coffee</td>
+                            <td><button class = "DeleteTask">Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
+    
+
+</body>
+<script src = "script.js"></script>
+
+</html>
