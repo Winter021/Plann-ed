@@ -31,12 +31,11 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .pageheading
 {
 
-    background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* color: azure; */
+    /* background-color: whitesmoke;
+     */
 
-    color: azure;
-
+     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     padding: 1vh;
     height: 10vh;
     width: 100vw;
@@ -46,11 +45,15 @@ background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, 
     align-items: center;
     justify-content: center;
 
-    font-family: 'Cedarville Cursive', cursive;
-    
+    /* font-family: 'Cedarville Cursive', cursive; */
+
+        font-family: 'Cedarville Cursive', cursive;
+
+    font-family: 'Russo One', sans-serif;
 
 }
 
 .pageheading h1{
-    color: rgb(202, 247, 1);
+    /* color: rgb(202, 247, 1); */
+    color : black
 }
