@@ -5,16 +5,17 @@
 
 .pagebody
 {
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
 
+    background-color: aliceblue;
     width: 100vw;
-    /* height: 150vh; */
+    height: 100vh;
 
     display: flex ;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
 
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -35,6 +36,9 @@
     justify-content: center;
     align-items: center;
 
+    position: relative;
+    top: 90px;
+    left: 35px;
 }
 
 .formgroup1
@@ -71,19 +75,17 @@
 
 }
 
-.tasklistbody
-{
-    /* height: 50vh; */
-    width: 80vw;
+.tasklistbody {
+    height: 100vh;
+    width: 50vw;
     /* border: 2px solid red; */
     margin-top: 3vh;
-    
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-    
-}
+    margin-left: 10px;
+  }
 
 .heading
 {

@@ -2,9 +2,9 @@
     border-collapse: collapse;
     margin: 3vh 2vw ;
     font-size: 0.9em;
-    min-width: 79vw;
+    min-width: 45vw;
     box-shadow: rgba(156, 38, 235, 0.603) 0px 0px 0px 3px;
-
+    box-sizing: border-box;
 
     border-radius:  5px 5px  0 0 ;
     overflow: hidden;
